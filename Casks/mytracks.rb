@@ -1,7 +1,10 @@
 class Mytracks < Cask
-  url 'http://www.mytracks4mac.info/download/myTracks2.dmg'
-  homepage 'http://www.mytracks4mac.com/'
   version 'latest'
-  sha256 '6e9549841fc32d4a9d65e7755aaadbbb46bad4bb14ef08ac07f631e359d14324'
-  link 'myTracks.app'
+  sha256 '39cc6e40ab6c239c6102256cd85658d9a4c1e574dc17a40fde92479dcc19cf5d'
+
+  url 'http://www.mytracks4mac.info/download/myTracks2.dmg'
+  homepage 'http://www.mytracks4mac.info/c/index.php/en/'
+  license :unknown
+
+  app 'myTracks.app'
 end
