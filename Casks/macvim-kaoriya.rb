@@ -1,11 +1,11 @@
-cask :v1 => 'macvim-kaoriya' do
+cask 'macvim-kaoriya' do
   version 'latest'
-  sha256 '33c49dc457f24a30122223324b0fa94f230ec8e3cd1a41929fcd06183fc9c550'
+  sha256 '889fc32986786522f248fcecc3cf1a2acda0bce9d10774a4d63d3834c240fd8d'
 
-  url 'https://github.com/splhack/macvim/releases/download/20150211/macvim-kaoriya-20150211.dmg'
+  url 'https://github.com/splhack/macvim-kaoriya/releases/download/20160312/MacVim-KaoriYa-20160312.dmg'
   name 'macvim-kaoriya'
-  homepage 'https://code.google.com/p/macvim-kaoriya/'
-  license :unknown
+  homepage 'https://github.com/splhack/macvim-kaoriya.git'
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   app 'MacVim.app'
 end
